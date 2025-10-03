@@ -6,7 +6,6 @@ import { create } from 'zustand'
    const initialState: BrowsingHistory = {
      products: [],
    }
-
    export const browsingHistoryStore = create<BrowsingHistory>()(
      persist(() => initialState, {
        name: 'browsingHistoryStore',

@@ -80,7 +80,7 @@ export default async function Home() {
          <ProductSlider
            title={'Best Selling Products'}
            products={bestSellerProducts}
-           hideDetails
+           hideDetails={true}
          />
        </CardContent>
      </Card>

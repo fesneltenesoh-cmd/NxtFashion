@@ -10,7 +10,7 @@ import { t } from 'i18next'
 export default function Footer() {
   return (
     <footer className='bg-black text-white'>
-        <div className="w-[100px] rounded-full text-center items-center justify-center">
+        <div className="absolute w-[100px] rounded-full text-center items-center justify-center">
             <Button className='flex absolute md:max-w-[35px] bg-grey-800/50 md:left-[97%] ' variant='ghost' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                 <ChevronUp className='m-2'/>
             </Button>
